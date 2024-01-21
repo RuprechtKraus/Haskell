@@ -1,0 +1,42 @@
+# Haskell-specific files and directories
+dist/
+dist-newstyle/
+.cabal-sandbox/
+.cabal/
+*.o
+*.hi
+*.chi
+*.hie
+cabal.project.local
+cabal.project.local~
+/.stack-work/
+.stack-work/
+.stack/
+.hpc/
+*.tix
+/.hpc/
+cabal.project.local.bak
+
+# VSCode-specific files and directories
+.vscode/
+.settings/
+.vscodeignore
+.history/
+
+# Compiled Haskell files (if you are using GHC)
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Stack binary files (if you are using Stack)
+.stack-work/
+
+# Haskell stack trace files
+.stacktrace
+
+# Local package build directories
+_build/
+
+# Compiled binaries
+*.exe

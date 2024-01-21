@@ -2,7 +2,7 @@ main :: IO ()
 main = do
     -- First Task
     putStr "N1: "
-    let v1 = (( 1, 'a'), "abc")
+    let v1 = ((1, 'a'), "abc")
     print (snd (fst v1))
 
     -- Second Task

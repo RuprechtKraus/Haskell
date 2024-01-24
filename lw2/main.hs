@@ -24,6 +24,7 @@ gaussSum1 n = floor ((n * (n + 1)) / 2)
 gaussSum2 :: (RealFrac a, Integral b) => a -> b
 gaussSum2 n = floor ((n - 1) * n / 2)
 
+main :: IO ()
 main = do
     let list = doMyList 6
 
